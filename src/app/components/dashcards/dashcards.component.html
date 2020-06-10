@@ -1,0 +1,32 @@
+<div class="row" style="justify-content: center;">
+    <div class="card yellow col-sm-3 p-3 m-3">
+      <div class="ui statistic ">
+        <div class="label text-warning">
+          <h3>Confirmed</h3>
+        </div>
+        <div class="val text-warning">
+          {{ confirmed | number }}
+        </div>
+      </div>
+    </div>
+    <div class="card green col-sm-3 p-3 m-3">
+      <div class="ui statistic">
+        <div class="label text-success">
+          <h3>Recovered</h3>
+        </div>
+        <div class="val  text-success">
+          {{ recovered | number }}
+        </div>
+      </div>
+    </div>
+    <div class="card red col-sm-3 p-3 m-3">
+      <div class="ui statistic">
+        <div class="label text-danger">
+          <h3>Deaths</h3>
+        </div>
+        <div class="val text-danger">
+          {{ deaths | number }}
+        </div>
+      </div>
+    </div>
+ </div>

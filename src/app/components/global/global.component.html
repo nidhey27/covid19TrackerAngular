@@ -1,0 +1,25 @@
+<div class="jumbotron jumbotron-fluid text-center bg-white  ">
+    <div class="container">
+      <h1 class="display-4">COVID-19 Global Statics</h1>
+      <hr>
+      <h5>Last Updated : {{ lastUpdated | date }}</h5>
+     <app-dashcards 
+     [confirmed]="confirmed"
+     [deaths]="deaths"
+     [recovered]="recovered"
+     
+     ></app-dashcards>
+      
+       <div class="text-center">
+          <div class="text-center">
+            <div class="col-sm-12 col-md-12">
+              <canvas baseChart
+                      [data]="doughnutChartData"
+                      [labels]="doughnutChartLabels"
+                      [chartType]="doughnutChartType"></canvas>
+            </div>  
+          </div>
+
+       </div>
+    </div>
+  </div>

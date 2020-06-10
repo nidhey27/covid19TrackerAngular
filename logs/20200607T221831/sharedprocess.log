@@ -1,0 +1,9 @@
+[2020-06-07 22:18:44.965] [sharedprocess] [info] main {"machineId":"0344f45181ca00985ef2e86b0c3730d9e2da66c494e65b14fccb472e6fea4f67","windowId":2}
+[2020-06-07 22:18:45.731] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/Desktop/covidTracker19/User/snippets'
+[2020-06-07 22:19:24.985] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-06-07 22:32:01.432] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2020-06-07 22:32:11.431] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver /tmp/a517e802-0a6c-4a34-a361-47da405aee4b
+[2020-06-07 22:32:14.540] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ritwickdey.liveserver-5.6.1: ritwickdey.liveserver
+[2020-06-07 22:32:14.541] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ritwickdey.liveserver-5.6.1
+[2020-06-07 22:32:14.544] [sharedprocess] [info] Installation completed. ritwickdey.liveserver
+[2020-06-07 22:32:14.671] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver

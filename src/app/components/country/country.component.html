@@ -1,0 +1,35 @@
+<div class="jumbotron jumbotron-fluid text-center bg-white  ">
+    <div class="container">
+      <h1 class="display-4">COVID-19 Country Wise Statics</h1>
+      <hr>
+
+      <div  class="mx-auto">
+          
+        <div class="formgroup col-lg-5 mx-auto">
+          <label for="countires">Select Country</label>
+          <select  name="" class="form-control" id="c" #input (change)="update(input.value)">
+            <option  value=" " >Select...</option>
+            <option *ngFor="let c of countires;index as i" value={{c?.name}} >{{c?.name}}</option>
+           
+          </select>
+        
+        </div>
+      </div>
+        <app-dashcards 
+      [confirmed]="confirmed"
+      [deaths]="deaths"
+      [recovered]="recovered"
+      
+      ></app-dashcards>
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+             
+             ></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
